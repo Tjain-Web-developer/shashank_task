@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Contact Us | Gynger</title>
+  </head>
+  <body>
+    <div class="main_container px-5">
+      <div class="headers_container">
+        <h5 class="text-center page_title">CONTACT</h5>
+        <h1 class="text-center page_tagline">Lets' Connect</h1>
+        <p class="text-center page_remark">
+          Please fill out the form below and we'll reach out right away.
+        </p>
+      </div>
+      <form class="validatedForm">
+        <div class="field_Wrapper">
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>First name</span>
+            </label>
+            <input class="inpField validateInput" type="text" />
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>Last name</span>
+            </label>
+            <input class="inpField validateInput" type="text" />
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+        </div>
+        <div class="field_Wrapper">
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>Email</span>
+            </label>
+            <input class="inpField validateInput" type="text" />
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>Company name</span>
+            </label>
+            <input class="inpField validateInput" type="text" />
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+        </div>
+        <div class="field_Wrapper">
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>Job title</span>
+            </label>
+            <input class="inpField validateInput" type="text" />
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+          <div class="inpParent">
+            <label class="inpLabel requiredLabel">
+              <span>I'd like to</span>
+            </label>
+            <select class="selectField validateInput">
+              <option selected disabled value="">Please Select</option>
+              <option value="Finance my tech stack">
+                Finance my tech stack
+              </option>
+              <option value="Offer contract financing to my customers">
+                Offer contract financing to my customers
+              </option>
+              <option value="Something else">Something else</option>
+            </select>
+            <p class="error_message">Please complete this required field.</p>
+          </div>
+        </div>
+        <div class="inpParent">
+          <label class="inpLabel requiredLabel">
+            <span>How did you hear about us?</span>
+          </label>
+          <input class="inpField validateInput" type="text" />
+          <p class="error_message">Please complete this required field.</p>
+        </div>
+        <div class="inpParent">
+          <label class="inpLabel">
+            <span>Anything else you want us to know?</span>
+          </label>
+          <input class="inpField" type="text" />
+        </div>
+        <div class="buttonDiv">
+          <button class="submitBtn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
