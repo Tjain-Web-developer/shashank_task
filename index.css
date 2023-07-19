@@ -1,5 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
 .main_container{
     width: 100%;
+    padding: 0 10vw;
     background-color: #f2fbfa;
 }
 
@@ -111,8 +123,17 @@
 }
 
 @media screen and (max-width: 482px) {
+    .main_container{
+        padding: 0 4vw;
+    }
     .field_Wrapper {
       flex-direction: column;
       gap: 1rem;
     }
-  }
+    .page_tagline{
+        font-size: 2rem;
+    }
+    .page_remark{
+        font-size: 1rem;
+    }
+}
